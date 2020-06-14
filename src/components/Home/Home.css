@@ -1,0 +1,54 @@
+.Home-container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.home {
+    align-self: center;
+}
+.home h1 {
+    margin: 20px;
+    font-size: 100px;
+}
+.home p {
+    margin: 20px;
+    font-size:30px;
+}
+.button{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+.button .btn {
+    margin: 10px;
+    padding: 10px;
+    width: fit-content;
+    background-color: black;
+    border-color: black;
+}
+.buton .btn:hover {
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+}
+
+@media only screen and (min-width: 950px) {
+    
+}
+
+@media only screen and (max-width: 950px) {
+
+}
+
+@media only screen and (max-width: 480px) {
+    .Home-container{
+        height: 80vh;
+    }
+    .home h1 {
+        font-size: 40px;
+    }
+    .home p {
+        font-size:20px;
+    }
+
+}

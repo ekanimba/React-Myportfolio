@@ -1,0 +1,34 @@
+.Project {
+    background-color:white;
+    border-radius: 5px;
+    
+    margin: 10px;
+}
+.image-container {
+    border-radius: 5px;
+    width: 250px;
+    background-color: black;
+}
+.image-container img{
+    border-radius: 5px;
+    width: 100%;
+}
+.project-name {
+    display: flex;
+    margin: 10px;
+    font-size: 25px;
+}
+.FrameworkLanguages {
+    display: flex;
+    flex-direction: row;
+}
+.FrameworkLanguages p {
+    margin: 10px;
+}
+
+@media only screen and (max-width: 480px) {
+    .Project {
+        padding: 10px;
+        margin: 10px;
+    }
+}

@@ -1,0 +1,19 @@
+h5 {
+    text-align: left;
+    font-size: 12px;
+    margin-bottom: 0px;
+    font-weight: 750;
+}
+p {
+    text-align: left;
+    font-size: 14px;
+    margin-bottom: 2px;
+}
+.info {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.infokey{
+    margin-bottom: 5px;
+}

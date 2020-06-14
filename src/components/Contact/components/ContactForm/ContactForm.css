@@ -1,0 +1,27 @@
+.contact-form {
+    align-self: center;
+    width: 60%;
+}
+
+.contact-form h1 {
+    font-size: 60px;
+}
+.contact-form p {
+    font-size: 20px;
+}
+.form-control {
+    background: transparent;
+    color: black;
+    border-color: black;
+}
+
+.contactForm .btn {
+    background-color: black;
+}
+
+@media only screen and (max-width: 480px) {
+    .contact-form {
+        width: 80%;
+    }
+
+}

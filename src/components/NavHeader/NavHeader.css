@@ -1,0 +1,10 @@
+.bg-light.scrolled {
+    background-color: white!important;
+    transition:500ms ease;
+}
+
+.navbar-nav {
+    margin-right: 30px;
+    font-size: 20px;
+}
+

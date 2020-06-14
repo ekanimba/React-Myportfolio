@@ -1,0 +1,8 @@
+.aboutMe-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.aboutme-header{
+    align-self: center;
+}

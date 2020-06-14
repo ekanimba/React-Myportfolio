@@ -1,0 +1,27 @@
+.language {
+    text-align: left;
+    font-size: 14px;
+    margin-bottom: 2px;
+}
+.blackDot {
+    height: 8px;
+    width: 8px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.whiteDot {
+    height: 8px;
+    width: 8px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+    border: 1px solid black;
+}
+
+.levels {
+    display: flex;
+}

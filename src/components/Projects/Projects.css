@@ -1,0 +1,20 @@
+
+.projects-container {
+    height: 100vh;
+    margin: 20px;
+    text-align: center;
+    position:relative;
+}
+.project-row{
+    position: relative;
+    margin-top: 50px;
+    margin-left: 70px;
+    margin-bottom: 30px;
+    margin-right: 70px;
+}
+
+@media only screen and (max-width: 480px) {
+    .projects-container {
+        height: 100%;
+    }
+}
