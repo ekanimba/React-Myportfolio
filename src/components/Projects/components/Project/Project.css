@@ -2,20 +2,43 @@
     background-color:white;
     border-radius: 5px;
     margin: 10px;
+    border: 2px solid white;
 }
 .image-container {
     border-radius: 5px;
     width: 250px;
-    background-color: black;
+    height: 176px;
+    box-shadow: 0 8px 6px -6px black;
+    
 }
 .image-container img{
-    border-radius: 5px;
+    
     width: 100%;
+    height:100%;
 }
 .project-name {
     display: flex;
-    margin: 10px;
+    
     font-size: 25px;
+}
+.projectname-projecturi {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    margin-left: 10px;
+    flex-direction: row;
+
+}
+.projectname-projecturi img {
+    margin-left: auto;
+    width: 30px;
+}
+
+.projectname-projecturi img:hover{
+    border: 2px solid black;
+    border-radius: 25px;
+    
 }
 .FrameworkLanguages {
     display: flex;

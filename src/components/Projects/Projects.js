@@ -8,27 +8,21 @@ class Projects extends Component {
     {
       projectImgSrc: 'https://ekanimba-myportfolio.s3.eu-central-1.amazonaws.com/myportfoliohomePage.png',
       projectname: 'My Portfolio',
-      projectgithuburi: 'local',
+      projectgithuburi: 'https://github.com/ekanimba/React-Myportfolio',
+      projectonlineuri: 'https://master.d7391ryaeasfg.amplifyapp.com/',
       projectframeworklanguages: [
         'React', 'JavaScript', 'Html', 'Css'
       ],
     },
     {
-      projectImgSrc: 'https://ekanimba-myportfolio.s3.eu-central-1.amazonaws.com/myportfoliohomePage.png',
-      projectname: 'spotmusic',
-      projectgithuburi: 'local',
+      projectImgSrc: 'https://ekanimba-myportfolio.s3.eu-central-1.amazonaws.com/MobileTollSystem.svg',
+      projectname: 'Mobile Toll System',
+      projectgithuburi: 'https://github.com/ekanimba/MobileTollSystem',
+      projectonlineuri: '',
       projectframeworklanguages: [
-        'React', 'JavaScript', 'Html', 'Css'
+        'Java', 'Android studio', 'Firebase',
       ],
     },
-    {
-      projectImgSrc: 'https://ekanimba-myportfolio.s3.eu-central-1.amazonaws.com/myportfoliohomePage.png',
-      projectname: 'restaurant',
-      projectgithuburi: 'local',
-      projectframeworklanguages: [
-        'React', 'JavaScript', 'Html', 'Css'
-      ],
-    }
   ];
 
   render() {

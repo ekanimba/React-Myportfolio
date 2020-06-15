@@ -50,23 +50,23 @@ class ContactForm extends React.Component {
                 <Col>
                     <Form.Group  >
                         <Form.Label>Email</Form.Label>
-                        <Form.Control type="email" placeholder="Email" />
+                        <Form.Control type="email" placeholder="Email" name="email"/>
                     </Form.Group>
                 </Col>
             </Form.Row>
       
             <Form.Group >
             <Form.Label>Subject</Form.Label>
-            <Form.Control placeholder="Subject" />
+            <Form.Control placeholder="Subject"/>
             </Form.Group>
 
             <Form.Group >
                 <InputGroup>
-                <FormControl as="textarea" aria-label="With textarea"  placeholder="Message"/>
+                <FormControl as="textarea" aria-label="With textarea"  placeholder="Message" name="message"/>
                 </InputGroup>
             </Form.Group>
             {status === "ERROR" && <p>Ooops! There was an error.</p>}
-            {status === "SUCCESS" ? <p>Thanks!</p> : <Button variant="dark" type="submit">Submit</Button>}
+            {status === "SUCCESS" ? <p>Thanks! I will be in touch</p> : <Button variant="dark" type="submit">Submit</Button>}
             
             
         </Form>

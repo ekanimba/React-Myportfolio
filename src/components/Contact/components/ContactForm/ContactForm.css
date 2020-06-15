@@ -15,6 +15,10 @@
     border-color: black;
 }
 
+.contactForm p {
+    color: white;
+}
+
 .contactForm .btn {
     background-color: black;
 }
