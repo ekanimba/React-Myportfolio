@@ -33,6 +33,7 @@
 .projectname-projecturi img {
     margin-left: auto;
     width: 30px;
+    height: 30px;
 }
 
 .projectname-projecturi img:hover{
