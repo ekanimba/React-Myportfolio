@@ -23,6 +23,15 @@ class Projects extends Component {
         'Java', 'Android studio', 'Firebase',
       ],
     },
+    {
+      projectImgSrc: 'https://ekanimba-myportfolio.s3.eu-central-1.amazonaws.com/screenshot-www-beatplaylist-kanimbaeric-com-1593606402240.png',
+      projectname: 'Beat Playlist',
+      projectgithuburi: 'https://github.com/ekanimba/Beat-Playlist.git',
+      projectonlineuri: 'https://www.beatplaylist.kanimbaeric.com/',
+      projectframeworklanguages: [
+        'Spotify Api', 'Reactjs', 'HTML','CSS'
+      ],
+    },
   ];
 
   render() {
