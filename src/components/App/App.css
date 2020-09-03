@@ -1,12 +1,11 @@
 .App {
     display: flex;
     flex-direction: column;
-    background-image: url('https://ekanimba-myportfolio.s3.eu-central-1.amazonaws.com/background.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
     font-family: 'EB Garamond', serif;
     color: black;
+    overflow: hidden;
 }
 
 footer {

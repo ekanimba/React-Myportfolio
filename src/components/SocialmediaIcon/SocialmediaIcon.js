@@ -5,7 +5,6 @@ import icon_instagram from './icon_instagram.svg';
 import icon_linkedin from './icon_linkedin.svg';
 import icon_twitter from './icon_twitter.svg';
 
-
 class SocialmediaIcon extends React.Component {
     constructor(props){
         super(props);
