@@ -16,9 +16,18 @@ class App extends React.Component {
     super();
     this.state = {
       isTop: true,
-      navExpanded: false
+      navExpanded: false,
+      imageStatus : "loading",
     }
     this.timeline = new TimelineMax({ paused: true});
+  }
+
+  handleImageLoaded() {
+    this.setState({ imageStatus: "loaded"});
+  }
+
+  handleImageErrored() {
+    this.setState( { imageStatus: "failed to load"});
   }
 
   componentDidMount(){
@@ -47,7 +56,12 @@ class App extends React.Component {
       
       <div className='App-background'>
         <BrowserRouter>
-        <div className="App" style={divStyle}>
+        <div
+          className="App" 
+          style={divStyle} 
+          onLoad={this.handleImageLoaded.bind(this)}
+          onError={this.handleImageErrored.bind(this)}
+          >
           <Navb isTop={this.state.isTop} navExpanded={this.state.navExpanded}/>
           <Switch>
             <Route exact path='/' component={Home}/>
