@@ -3,6 +3,11 @@ import {Button} from 'react-bootstrap';
 import {NavLink } from 'react-router-dom';
 import './Home.css'
 import { TimelineMax , Power1} from "gsap/all";
+import { gsap } from "gsap";
+import { CSSRulePlugin } from "gsap/CSSRulePlugin";
+
+gsap.registerPlugin(CSSRulePlugin);
+
 
 class Home extends Component {
 
