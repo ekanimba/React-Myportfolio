@@ -16,23 +16,23 @@ class Home extends Component {
         visibility: "hidden",
       })
       .from('.home-header', 0.5, {
-        autoAlpha: 0,
+        opacity: 0,
         delay: 1,
         x: 100,
         ease: Power1.easeInOut
       })
       .from('.home-content', 0.5, {
-        autoAlpha: 0,
+        opacity: 0,
         y: 100,
         ease: Power1.easeInOut
       })
       .from(this.buttonProjects, 0.5, {
-        autoAlpha: 0,
+        opacity: 0,
         y: 100,
         ease: Power1.easeInOut
       })
       .from(this.buttonResume, 0.5, {
-        autoAlpha: 0,
+        opacity: 0,
         y: 100,
         ease: Power1.easeInOut
       });
