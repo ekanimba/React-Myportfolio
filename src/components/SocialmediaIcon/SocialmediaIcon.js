@@ -24,11 +24,11 @@ class SocialmediaIcon extends React.Component {
                 iconDirecturi: "https://twitter.com/EricKanimba",
                 iconalt: "Twitter"
             },
-            {
-                iconsrc: icon_instagram,
-                iconDirecturi: "https://www.instagram.com/kanimba_eric/",
-                iconalt: "Instagram"
-            }
+            // {
+            //     iconsrc: icon_instagram,
+            //     iconDirecturi: "https://www.instagram.com/kanimba_eric/",
+            //     iconalt: "Instagram"
+            // }
         ]
     }
     directuri(link){
