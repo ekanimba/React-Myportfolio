@@ -10,6 +10,7 @@ import Projects from '../Projects/Projects';
 import Contact from '../Contact/Contact';
 import Resume from '../Resume/Resume';
 import { TimelineMax , Power1} from "gsap/all";
+import Background from './background.jpg';
 
 class App extends React.Component {
   constructor(){
@@ -49,7 +50,7 @@ class App extends React.Component {
   }
   render() {
     const divStyle = {
-      backgroundImage: `url(https://ekanimba-myportfolio.s3.eu-central-1.amazonaws.com/background.jpg)`
+      backgroundImage: "url(" + Background + ")"
     };
     
     return (
